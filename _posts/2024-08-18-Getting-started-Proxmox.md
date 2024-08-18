@@ -28,7 +28,7 @@ This guide for reference if needed ^
 
 For running `apt-get update` I ran into issues where it had enterprise repositories set, got it fixed by commenting out the lines in the list.
 
-![[Pasted image 20240818181007.png]]
+![](lol1.png)
 
 The enterprise repository lives in:
 
@@ -40,8 +40,8 @@ https://pve.proxmox.com/wiki/Package_Repositories
 
 Use the web interface, go to Node -> Updates -> Repositories menu and you should be able to add/remove package repositories easily and disable pve-enterprise component. Alternative approach.
 
-![[Pasted image 20240818181037.png]]
+![](lol2.png)
 
 After that I have setup a VM, obviously downloaded kali-linux.
 
-![[Pasted image 20240818182429.png]]
+![](lol3.png)
